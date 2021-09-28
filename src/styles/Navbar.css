@@ -1,0 +1,25 @@
+body {
+  font-family: "Source Sans Pro", sans-serif !important;
+}
+.navbar-brand img {
+  max-width: 100px;
+}
+.navbar-collapse {
+  flex-grow: initial !important;
+}
+img {
+  max-width: 100%;
+}
+header .nav-item a.nav-link:hover {
+  color: #3aae2a !important;
+}
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1260px !important;
+  }
+}
